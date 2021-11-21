@@ -49,7 +49,7 @@ def timer_mech():
     if reps % 8 == 0:
 
         # long break
-        final_countdown(4)
+        final_countdown(LONG_BREAK_SEC)
         print('Long break')
         # Changing the title to Break
         heading.config(text='Break', fg=GREEN)
@@ -58,11 +58,11 @@ def timer_mech():
         mark.config(text='Congratulations!')
 
     elif reps % 2 == 0:
-        final_countdown(2)
+        final_countdown(SHORT_BREAK_SEC)
         print('Short break')  # short break
         heading.config(text='Break', fg=PINK)
     else:
-        final_countdown(6)
+        final_countdown(WORK_SEC)
         print('Work')  # work
         heading.config(text='Work', fg=RED)
 
@@ -83,7 +83,7 @@ def final_countdown(count):
         else:
             time_format = f'0{hrs}:{min}'
     else:
-        time_format = f'{hrs} : {min}'
+        time_format = f'{hrs}:{min}'
 
     # Updating the time
     canvas.itemconfig(timer, text=time_format)
