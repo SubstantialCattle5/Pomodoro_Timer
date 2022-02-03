@@ -16,4 +16,4 @@ _([source:TheMuse](https://www.themuse.com/advice/take-it-from-someone-who-hates
 <em>Features-</em> 
 1. Start and Stop Button. 
 2. Timer.
-3. Tick marks to Show User's Progression.
+3. Tick marks to show User's Progression.
