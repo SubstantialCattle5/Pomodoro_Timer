@@ -11,7 +11,7 @@ _([source:TheMuse](https://www.themuse.com/advice/take-it-from-someone-who-hates
 
 ***
 <h3>User Interface</h3>
-![ui](Pomodoro Timer 03-02-2022 20_03_30.png)
+<img src = 'Pomodoro Timer 03-02-2022 20_03_30.png' > 
 
 <em>Features-</em> 
 1. Start and Stop Button. 
