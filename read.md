@@ -8,4 +8,4 @@ _([source:TheMuse](https://www.themuse.com/advice/take-it-from-someone-who-hates
 
 ##User Interface
 
-![ui](https://imgur.com/a/YTiS9e2)
+![ui](https://imgur.com/TvYhcRp)
